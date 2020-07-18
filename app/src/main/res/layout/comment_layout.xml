@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
+        android:paddingTop="10dp">
+        <TextView
+            android:layout_marginEnd="5dp"
+            android:padding="10dp"
+            android:id="@+id/corner1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:background="@color/black"
+            android:layout_width="200dp"
+            android:layout_marginBottom="2dp"
+            android:layout_height="3dp">
+        </TextView>
+        <TextView
+            android:layout_marginEnd="5dp"
+            android:id="@+id/corner2"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/corner1"
+            android:background="@color/black"
+            android:layout_width="100dp"
+            android:layout_height="3dp">
+        </TextView>
+        <TextView
+            android:layout_marginEnd="5dp"
+            android:id="@+id/corner3"
+           android:layout_alignParentEnd="true"
+            android:layout_below="@+id/corner2"
+            android:background="@color/black"
+            android:layout_width="5dp"
+            android:layout_height="250dp">
+        </TextView>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list_comment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_above="@+id/comment_layout"
+            android:layout_alignParentTop="true">
+        </androidx.recyclerview.widget.RecyclerView>
+        <LinearLayout
+            android:id="@+id/comment_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true">
+            <EditText
+                android:textColorHint="@color/black"
+                android:hint="Your comment here"
+                android:id="@+id/comment"
+                android:layout_weight="5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"></EditText>
+            <Button
+                android:background="@color/white"
+                android:hint="Comment"
+                android:id="@+id/action_comment"
+                android:textColor="@color/black"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+            </Button>
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

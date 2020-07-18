@@ -1,0 +1,8 @@
+   foodDatabaseHelper.insert(new Food("cheeseburger",100,R.drawable.cheeseburger));
+        foodDatabaseHelper.insert(new Food("corner",100,R.drawable.corner));
+        foodDatabaseHelper.insert(new Food("fried_checken",100,R.drawable.fried_checken));
+        foodDatabaseHelper.insert(new Food("hamburger",100,R.drawable.hambergur));
+        foodDatabaseHelper.insert(new Food("taco",100,R.drawable.taco));
+        foodDatabaseHelper.insert(new Food("sandwick",100,R.drawable.sandwick));
+        foodDatabaseHelper.insert(new Food("milks_shake",100,R.drawable.milks_shake));
+        foodDatabaseHelper.insert(new Food("muffin",100,R.drawable.muffin));

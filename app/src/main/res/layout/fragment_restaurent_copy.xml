@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/store_xuanla_hn_master"
+        android:alpha="0.5"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+        </LinearLayout>
+        <ImageView
+            android:src="@drawable/coffee_house_icon"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            >
+        </ImageView>
+        <TextView
+            android:textStyle="bold"
+            android:fontFamily="@font/greatvibes_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xuan_Ha_Store"
+            android:textSize="24dp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center">
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+        </LinearLayout>
+        <TextView
+            android:layout_width="2in"
+            android:layout_height="wrap_content"
+            android:text="Get a large drink with any Burrito order"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-light"
+            android:layout_gravity="center">
+        </TextView>
+        <TextView
+            android:layout_width="2in"
+            android:layout_height="wrap_content"
+            android:text="no coupons or codes - just walk in!"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-light"
+            android:layout_gravity="center">
+        </TextView>
+        <TextView
+            android:layout_width="2in"
+            android:layout_height="wrap_content"
+            android:text="Tonight only"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-light"
+            android:layout_gravity="center">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:background="#FFFFFF"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <Button
+                android:id="@+id/map"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="get location">
+            </Button>
+        </LinearLayout>
+        <TextView
+            android:text="8:00 AM - 21:00 PM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="#817E7E"
+            android:gravity="center">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Till the end"
+            android:textColor="#817E7E"
+            android:fontFamily="@font/oswald_bold"
+            android:layout_marginBottom="30dp">
+        </TextView>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            >
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/list_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </androidx.recyclerview.widget.RecyclerView>
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

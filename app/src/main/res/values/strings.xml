@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name"><font fgcolor='#295f2d'><b><i>Your Order</i></b></font></string>
+    <string name="navigation_drawer_open">Open navigation bar</string>
+    <string name="navigation_drawer_close">Close navigation bar</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="loading">Loading</string>
+    <string name="status_stop"><font fgcolor='#FF8E8E93'>Stopped</font></string>
+</resources>

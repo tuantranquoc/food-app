@@ -1,0 +1,1 @@
+restaurantDatabaseHelper.insert(new Restaurant("Xuan Ha",10.7969738,106.6703815,R.drawable.store_xuanla_hn_master));
